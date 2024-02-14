@@ -9,6 +9,9 @@ function turnItOver(word) {
 
     // Stampo il risultato nella console
     console.log(reverse); 
+
+    document.getElementById("word").innerText = reverse;
+
 }
 
 turnItOver(prompt("Inserisci la parola"));
